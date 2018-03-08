@@ -3,7 +3,7 @@ library("wordcloud")
 library("RColorBrewer")
 
 # Write to file dataframe column with text of interest
-# write.table(df$textStr,"wordcloud.txt", sep="\t",row.names=FALSE)
+# write.table(df$textStr,"../wordcloud.txt", sep="\t",row.names=FALSE)
 
 # Or simply read from txt file
 filePath <- '../wordcloud.txt'

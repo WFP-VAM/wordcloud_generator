@@ -1,2 +1,2 @@
-# wordcloud_generator
-R script to generate wordclouds
+# Wordclound Generator
+Basic R script to generate wordclouds and save image.

@@ -6,7 +6,7 @@ library("RColorBrewer")
 # write.table(df$textStr,"wordcloud.txt", sep="\t",row.names=FALSE)
 
 # Or simply read from txt file
-filePath <- 'wordcloud.txt'
+filePath <- '../wordcloud.txt'
 text <- read.delim(filePath, sep = "\t")
 
 docs.corpus <- VCorpus(VectorSource(text))
